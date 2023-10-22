@@ -9,19 +9,6 @@
   --primary-inverse: #FFF;
 }
 
-article {
-    margin: var(--block-spacing-vertical) 0;
-    padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
-  }
-
-  article > header,
-  article > footer {
-    margin-right: calc(var(--block-spacing-horizontal) * -1);
-    margin-left: calc(var(--block-spacing-horizontal) * -1);
-    padding: calc(var(--block-spacing-vertical) * 0.66) var(
-        --block-spacing-horizontal
-      );
-  }
 
 .grid {
     grid-column-gap: var(--grid-spacing-horizontal);
@@ -51,6 +38,12 @@ article {
 /* hgroup */
 main > hgroup{
   text-align: center;
+}
+
+/* article */
+article a{
+  width: 100%;
+  margin-bottom: 0;
 }
 
 /* bottom text */
