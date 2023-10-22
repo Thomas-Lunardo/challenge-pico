@@ -31,8 +31,48 @@ article {
     margin: 0;
   }
 
-  @media (min-width: 992px) {
-    .grid {
-      grid-template-columns: repeat(1fr, minmax(0%, 1fr));
-    }
+  /* HEADER NAV BAR */
+
+  body > header{
+    padding: 0;
+    margin: 0;
   }
+
+  nav{
+    background-color: var(--primary);
+  }
+
+  nav ul li, a, details {
+    color: var(--primary-inverse);
+  }
+
+/* MAIN */
+
+/* hgroup */
+main > hgroup{
+  text-align: center;
+}
+
+/* bottom text */
+.bottomText{
+  text-align: center;
+  background-color: rgb(201, 195, 195);
+  width: 100%;
+}
+
+main div .bottomText{
+  padding: 0;
+  margin: 0;
+}
+
+/* FOOTER */
+body > footer{
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  background-color: var(--primary);
+  color: whitesmoke;
+  text-align: center;
+}
