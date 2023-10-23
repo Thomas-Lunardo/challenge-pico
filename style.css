@@ -9,10 +9,8 @@
   --primary-inverse: #FFF;
 }
 
-
 .grid {
-    grid-column-gap: var(--grid-spacing-horizontal);
-    grid-row-gap: var(--grid-spacing-vertical);
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -68,8 +66,13 @@ body > footer{
 
 footer{
   background-color: var(--primary);
-  color: whitesmoke;
   text-align: center;
+  height: 60px;
+}
+
+footer p{
+  padding-top: 15px;
+  color: var(--primary-inverse);
 }
 
 /* RESPONSIVE */
